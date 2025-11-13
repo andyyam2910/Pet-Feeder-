@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427907327543",
+    "project_id": "pet-feeder-plus",
+    "storage_bucket": "pet-feeder-plus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427907327543:android:fb2c8a842a57902bf7c1b2",
+        "android_client_info": {
+          "package_name": "com.petfeederplus.crud_pet_feeder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-rZIFYHVYRjKbMYeNN22aE51W-3zioaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
