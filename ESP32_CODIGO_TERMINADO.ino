@@ -51,7 +51,9 @@ const int CAJON_IN1 = 5;
 const int CAJON_IN2 = 18; 
 const int CAJON_ENA = 19; 
 const int FC_ABIERTO_PIN = 16; 
-const int FC_CERRADO_PIN = 17; 
+const int FC_CERRADO_PIN = 17;
+// LED INDICADOR
+const int LED_WIFI = 2;  
 
 // =======================================================================
 // =================== 3.1 PARÁMETROS AGUA ===============================
@@ -154,7 +156,6 @@ void setup() {
   pinMode(CAJON_IN1, OUTPUT); pinMode(CAJON_IN2, OUTPUT); pinMode(CAJON_ENA, OUTPUT);
   pinMode(FC_ABIERTO_PIN, INPUT_PULLUP); pinMode(FC_CERRADO_PIN, INPUT_PULLUP);
   digitalWrite(CAJON_ENA, LOW);
-  
   pinMode(LED_WIFI, OUTPUT); 
   digitalWrite(LED_WIFI, LOW); // Apagado
 
